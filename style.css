@@ -51,6 +51,8 @@ button {
     align-content: center;
 }
 #intro {
+    display: flex;
+    justify-content: center;
     font-size: 36px;
     font-weight:900;
     color: #1F2937;
@@ -77,3 +79,39 @@ a {
     height: 200px;
     display:block;
 }
+
+img {
+    border-radius: 4px;
+    height: 200px;
+    width: 200px;
+    border: 3px solid blue;
+ 
+  }
+.card {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  
+  #quote {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: lightgray;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 10% 28%;
+    margin-left: -28%;
+  }
+
