@@ -44,7 +44,7 @@ body {
 }
 
 button {
-    background-color:rgba(14, 101, 243, 0.834);
+    background-color: #3883F6 ;
     border-radius: 8%;
     color:white;
     padding: 1% 10%;
@@ -114,4 +114,29 @@ img {
     padding: 10% 28%;
     margin-left: -28%;
   }
+  
+  #signup, #travel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3883F6 ;
+    padding: 15px;
+    color: white;
+    border: 1px solid white;
+    gap: 10px;
+    border-radius: 20px;
+    margin-top: 60px;
+  }
+  .footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    margin-top: 60px;
+  }
+  
 
